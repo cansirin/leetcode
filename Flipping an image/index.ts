@@ -11,7 +11,6 @@ For example, inverting [0,1,1] results in [1,0,0].
  */
 
 function flipAndInvertImage(image: number[][]): number[][] {
-  //
   const result: number[][] = [];
   const invert = (row: number[]): number[] => {
     console.log(row);
